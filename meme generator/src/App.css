@@ -1,0 +1,45 @@
+main {
+  padding: 36px;
+}
+.navbar {
+  height: 65px;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  color: #fff;
+}
+
+.logo {
+  padding: 20px;
+  height: 100%;
+}
+
+.logotitle {
+  font-family: Karla;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+}
+
+.memeinput {
+    font-family: "Karla", sans-serif;
+    border-radius: 5px;
+    border: 1px solid #D5D4D8;
+    text-indent: 5px;
+}
+ .form {
+    display: grid;
+    grid-template: 40px 40px / 1fr 1fr;
+    gap: 17px;
+ }
+
+ .memebutton {
+  grid-column: 1 / -1;
+  font-family: "Karla", sans-serif;
+  border-radius: 5px;
+  background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+  color: white;
+  border: none;
+  cursor: pointer;
+ }
